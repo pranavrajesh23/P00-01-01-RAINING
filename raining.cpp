@@ -17,6 +17,22 @@ void rainingCheck()
     }
 }
 
+void umbrellaCheck()
+{
+    string umbr;
+    cout<<"\nDid you find the umbrella?(yes/no)\n";
+    cin>>umbr;
+    if(umbr=="yes")
+    {
+        cout<<"\nBring the umbrella\n";
+    }
+    else
+    {
+        rainingCheck();
+    }
+}
+
+
 int main()
 {
     cout<<"Raining check program";
