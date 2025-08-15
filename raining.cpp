@@ -2,6 +2,11 @@
 #include<string>
 using namespace std;
 
+
+void rainingCheck();
+void umbrellaCheck();
+
+
 void rainingCheck()
 {
     string rain;
